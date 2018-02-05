@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/journal.js"></script>
+    <script type="text/javascript" src="js/journal-interface.js"></script>
+    <title>Journal</title>
+  </head>
+  <body>
+    <h1>go ahead and submit your entry.</h1>
+    <form id="submit-entry">
+      <label for="title">title: </label>
+      <input type="text" id="title">
+      <br>
+      <label for="body">body: </label>
+      <input type="text" id="body">
+      <button type="submit">submit</button>
+    </form>
+    <div id="result">
+      <p>number of words = <span id="words"></span></p>
+      <p>number of vowels = <span id="vowels"></span></p>
+      <p>teaser for the entry:</p>
+      <p><span id="teaser"></span></p>
+    </div>
+  </body>
+</html>
