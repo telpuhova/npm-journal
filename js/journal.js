@@ -35,3 +35,5 @@ Entry.prototype.getTeaser = function () {
   }
   return result;
 };
+
+exports.journalModule = Entry;
